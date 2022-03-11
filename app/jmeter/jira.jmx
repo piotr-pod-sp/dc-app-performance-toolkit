@@ -9130,15 +9130,15 @@ if ( sleep_time &gt; 0 ) {
               <boolProp name="TransactionController.parent">true</boolProp>
             </TransactionController>
             <hashTree>
-              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET /rest/softwareplant-bigtemplate/1.0/system/auth" enabled="true">
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET /rest/softwareplant-biggantt/1.0/system/auth" enabled="true">
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain"></stringProp>
+                <stringProp name="HTTPSampler.domain">testlab.softwareplant.com/develop</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
-                <stringProp name="HTTPSampler.protocol"></stringProp>
+                <stringProp name="HTTPSampler.protocol">https</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">${application.postfix}/rest/softwareplant-bigpicture/1.0/system/auth</stringProp>
+                <stringProp name="HTTPSampler.path">/rest/softwareplant-biggantt/1.0/system/auth</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -9157,15 +9157,15 @@ if ( sleep_time &gt; 0 ) {
                 </JSONPostProcessor>
                 <hashTree/>
               </hashTree>
-              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET /rest/softwareplant-bigpicture/1.0/ppm/box/overview-module/box-types/ROOT" enabled="true">
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET /rest/softwareplant-biggantt/1.0/ppm/box/overview-module/box-types/ROOT" enabled="true">
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain"></stringProp>
+                <stringProp name="HTTPSampler.domain">testlab.softwareplant.com/develop</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
-                <stringProp name="HTTPSampler.protocol"></stringProp>
+                <stringProp name="HTTPSampler.protocol">https</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">${application.postfix}/rest/softwareplant-bigpicture/1.0/ppm/box/overview-module/box-types/ROOT</stringProp>
+                <stringProp name="HTTPSampler.path">/rest/softwareplant-biggantt/1.0/ppm/box/overview-module/box-types/ROOT</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -9196,22 +9196,22 @@ if ( sleep_time &gt; 0 ) {
                 </ResponseAssertion>
                 <hashTree/>
               </hashTree>
-              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST /rest/softwareplant-bigpicture/1.0/ppm/box/overview-module/boxes/ROOT/addBox" enabled="true">
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST /rest/softwareplant-biggantt/1.0/ppm/box/overview-module/boxes/ROOT/addBox" enabled="true">
                 <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
                   <collectionProp name="Arguments.arguments">
                     <elementProp name="" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                      <stringProp name="Argument.value">{&quot;boxTypeId&quot;:&quot;2&quot;,&quot;name&quot;:&quot;New Program&quot;,&quot;startDate&quot;:&quot;2022-03-09&quot;,&quot;endDate&quot;:&quot;2022-03-10&quot;,&quot;iconId&quot;:&quot;font-awesome-box-open@VIOLET&quot;,&quot;responseSpecification&quot;:{&quot;boxLoadMode&quot;:&quot;BOX_AND_DESCENDANTS&quot;,&quot;filteringOptions&quot;:{},&quot;firstBoxId&quot;:&quot;ROOT&quot;,&quot;archivedBoxesLoadMode&quot;:&quot;EXCLUDE_ARCHIVED_BOXES&quot;}}</stringProp>
+                      <stringProp name="Argument.value">{&quot;boxTypeId&quot;:&quot;2&quot;,&quot;name&quot;:&quot;New Program&quot;,&quot;startDate&quot;:&quot;2022-03-09&quot;,&quot;endDate&quot;:&quot;2022-03-10&quot;,&quot;iconId&quot;:&quot;font-awesome-box-open@VIOLET&quot;,&quot;taskCatalogKeys&quot;:[],&quot;responseSpecification&quot;:{&quot;boxLoadMode&quot;:&quot;BOX_AND_DESCENDANTS&quot;,&quot;filteringOptions&quot;:{},&quot;firstBoxId&quot;:&quot;ROOT&quot;,&quot;archivedBoxesLoadMode&quot;:&quot;EXCLUDE_ARCHIVED_BOXES&quot;}}</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain"></stringProp>
+                <stringProp name="HTTPSampler.domain">testlab.softwareplant.com/develop</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
-                <stringProp name="HTTPSampler.protocol"></stringProp>
+                <stringProp name="HTTPSampler.protocol">https</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">${application.postfix}/rest/softwareplant-bigpicture/1.0/ppm/box/overview-module/boxes/ROOT/addBox</stringProp>
+                <stringProp name="HTTPSampler.path">/rest/softwareplant-biggantt/1.0/ppm/box/overview-module/boxes/ROOT/addBox</stringProp>
                 <stringProp name="HTTPSampler.method">POST</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -9258,6 +9258,43 @@ if ( sleep_time &gt; 0 ) {
                 </ResponseAssertion>
                 <hashTree/>
               </hashTree>
+              <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+                <boolProp name="ResultCollector.error_logging">false</boolProp>
+                <objProp>
+                  <name>saveConfig</name>
+                  <value class="SampleSaveConfiguration">
+                    <time>true</time>
+                    <latency>true</latency>
+                    <timestamp>true</timestamp>
+                    <success>true</success>
+                    <label>true</label>
+                    <code>true</code>
+                    <message>true</message>
+                    <threadName>true</threadName>
+                    <dataType>true</dataType>
+                    <encoding>false</encoding>
+                    <assertions>true</assertions>
+                    <subresults>true</subresults>
+                    <responseData>false</responseData>
+                    <samplerData>false</samplerData>
+                    <xml>false</xml>
+                    <fieldNames>true</fieldNames>
+                    <responseHeaders>false</responseHeaders>
+                    <requestHeaders>false</requestHeaders>
+                    <responseDataOnError>false</responseDataOnError>
+                    <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+                    <assertionsResultsToSave>0</assertionsResultsToSave>
+                    <bytes>true</bytes>
+                    <sentBytes>true</sentBytes>
+                    <url>true</url>
+                    <threadCounts>true</threadCounts>
+                    <idleTime>true</idleTime>
+                    <connectTime>true</connectTime>
+                  </value>
+                </objProp>
+                <stringProp name="filename"></stringProp>
+              </ResultCollector>
+              <hashTree/>
             </hashTree>
             <TestAction guiclass="TestActionGui" testclass="TestAction" testname="pacing - end" enabled="true">
               <intProp name="ActionProcessor.action">1</intProp>
